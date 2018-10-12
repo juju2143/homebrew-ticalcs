@@ -1,9 +1,9 @@
 cask 'cemu' do
-  version '1.0'
-  sha256 'c5da7fdb62cadc8d6f7c8148bc85b8d2f5b14361009cd0ad5689596dfd5ef04c'
+  version '1.1.1'
+  sha256 'bc1bb34d1547f5731fd49169024903d4bf35b04e973a177d6e1d7c19188cbdbb'
 
   # github.com/CE-Programming/CEmu was verified as official when first introduced to the cask
-  url "https://github.com/CE-Programming/CEmu/releases/download/v#{version}/macOS_CEmu.zip"
+  url "https://github.com/CE-Programming/CEmu/releases/download/v#{version}/macOS_CEmu.dmg"
   appcast 'https://github.com/CE-Programming/CEmu/releases.atom'
   name 'CEmu'
   homepage 'https://ce-programming.github.io/CEmu/'
